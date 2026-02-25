@@ -1,11 +1,7 @@
 {
-  "agent_name": "SimpleAgent",
-  "description": "A helpful AI assistant with built-in tools",
-  "api_key": "",
-  "model": "claude-opus-4-6",
-  "max_tokens": 1024,
-  "system_prompt": "You are a helpful AI assistant called SimpleAgent...",
-  "entry_point": "agent.py",
-  "dependencies": ["requirements.txt"],
-  "environment": "python3.10"
+  "agent_name": "TicTacToeAgent",
+  "description": "A simple Tic-Tac-Toe agent that picks valid moves.",
+  "entry_point": "tic_tac_toe_agent.py",
+  "environment": "python3.10",
+  "dependencies": ["requirements.txt"]
 }
